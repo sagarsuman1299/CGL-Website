@@ -1,0 +1,304 @@
+@media (min-width: 1150px) {
+  .about_logoimg {
+    height: 16vh;
+    position: absolute;
+    left: 17.5%;
+    transform: translateX(-50%);
+
+    top: 3vh;
+  }
+  .about_logotxt {
+    height: 7vh;
+    position: absolute;
+    top: 20vh;
+    left: 17.5%;
+    transform: translateX(-50%);
+    /* right: 3.8vw; */
+  }
+
+  p {
+    color: white;
+  }
+  .about_column {
+    width: 35%;
+    margin-top: -1vh;
+    margin-left: -1vh;
+    background-color: #401a64;
+    float: left;
+    height: 100vh;
+  }
+  .about_column2 {
+    float: left;
+    width: 65%;
+  }
+  .about_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .about_square {
+    width: 35vw;
+    height: 35vw;
+    background: #401a64;
+    transform: rotate(20deg) translateY(-50%);
+    border-radius: 5vw;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+
+    left: 45%;
+  }
+
+  .about_wrapper_left .about_howitbegan {
+    /* left: 8.4vw; */
+    top: 41vh;
+    position: relative;
+    font-size: 3vh;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    opacity: 0.6;
+    font-family: "Orbitron", sans-serif;
+    text-shadow: 0 0 20px #4b09e7, 0 0 10px #431bf3, 0 0 500px #500cec;
+  }
+  .about_whatwedo {
+    font-family: "Orbitron", sans-serif;
+    font-size: 3vh;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    top: 57vh;
+    opacity: 0.6;
+    position: relative;
+    /* left: 9.6vw; */
+    text-shadow: 0 0 20px #4b09e7, 0 0 10px #431bf3, 0 0 500px #500cec;
+  }
+  .about_ourteam {
+    font-family: "Orbitron", sans-serif;
+    font-size: 3vh;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    top: 73vh;
+    position: relative;
+    opacity: 0.6;
+    /* left: 11vw; */
+    text-shadow: 0 0 20px #4b09e7, 0 0 10px #431bf3, 0 0 500px #500cec;
+  }
+  body {
+    font-family: monospace;
+  }
+  .about_column li:hover {
+    /* color: grey; */
+    opacity: 1;
+  }
+  .about_column2 p {
+    font-size: 2.6vw;
+    left: 53.6vw;
+    transform: translateY(-60%);
+    top: 50%;
+    position: absolute;
+    max-width: 30vw;
+    text-align: center;
+  }
+  li {
+    color: white;
+    list-style: none;
+    margin-left: 5vw;
+  }
+  .about_item {
+    font-size: 2.6vw;
+    z-index: 2;
+    max-width: 30vw;
+    left: 53.6vw;
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-size: 3.5vh;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+
+    text-align: center;
+    /* font-size: 100px; */
+  }
+  .about_what {
+    left: 48vw;
+    max-width: 40vw;
+    font-size: 3.5vh;
+    word-spacing: 20px;
+    font-family: "Orbitron", sans-serif;
+  }
+  li:hover {
+    /* text-shadow: 
+        0 0 10px #000000, 
+        0 0 10px #ffffff,       
+        0 0 500px #ffffff;  */
+    position: relative;
+    right: -1vw;
+    /* color: grey; */
+    opacity: 1;
+  }
+  .about_klm {
+    position: absolute;
+    top: 27vh;
+  }
+  .about_vline {
+    position: relative;
+    left: 5vh;
+    top: 9vh;
+    background-color: white;
+    width: 0.5vh;
+    height: 47vh;
+  }
+  .about_hline1 {
+    position: relative;
+    top: -43vh;
+    left: -8vh;
+    background-color: white;
+    height: 0.5vh;
+    width: 4vh;
+    margin: 13vh;
+  }
+  .about_hline2 {
+    position: relative;
+    top: -37vh;
+    left: -8vh;
+    background-color: white;
+    height: 0.5vh;
+    width: 4vh;
+    margin: 13vh;
+  }
+  .about_hline3 {
+    position: relative;
+    top: -31vh;
+    left: -8vh;
+    background-color: white;
+    height: 0.5vh;
+    width: 4vh;
+    margin: 13vh;
+  }
+  /* .para{
+        size: 30px;
+    }
+     */
+}
+
+@media (max-width: 1150px) {
+  .about_logoimg {
+    width: 12vw;
+    margin-left: 2vw;
+  }
+
+  .body {
+    padding: 0;
+    margin: o;
+  }
+  .about_column {
+    width: 102%;
+    background-color: #572271;
+    float: left;
+    margin-left: -1vw;
+    margin-top: -1vh;
+    /* height: 25vh; */
+  }
+  .about_column2 {
+    width: 100%;
+    float: left;
+
+    /* height: 75vh; */
+  }
+  .about_logotxt {
+    position: relative;
+    bottom: 1.5vw;
+    width: 24vw;
+  }
+  .about_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .about_wrapper_left li {
+    color: white;
+    list-style: none;
+    font-family: "Orbitron", sans-serif;
+  }
+
+  .about_howitbegan {
+    margin-top: 2vh;
+    font-size: 2.6vw;
+    display: inline;
+    /* float: left;  */
+    /* margin-left: 0; */
+    margin-right: 8vw;
+    font-family: "Orbitron", sans-serif;
+  }
+  .about_whatwedo {
+    display: inline;
+    margin-top: 2vh;
+    font-size: 2.6vw;
+    position: relative;
+    /*left: 18vw; 
+         text-align: center; 
+        top: 2vh;
+        left: 16vw; */
+    margin-right: 8vw;
+    font-family: "Orbitron", sans-serif;
+  }
+  .about_ourteam {
+    display: inline;
+    margin-top: 2vh;
+    font-size: 2.6vw;
+    /* position: relative; */
+    /* left: 40vw; */
+    /* float: right; */
+    /* margin-right: 1vw; */
+    font-family: "Orbitron", sans-serif;
+  }
+  .about_square {
+    width: 50vw;
+    height: 50vw;
+    background: #401a64;
+    transform: rotate(20deg) translateY(-50%);
+    border-radius: 5vw;
+
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    z-index: 0;
+
+    left: 18%;
+  }
+  .about_wrapper_left li:hover {
+    text-shadow: 0 0 10px #000000, 0 0 10px #ffffff, 0 0 500px #ffffff;
+    position: relative;
+    bottom: -0.1vh;
+    color: grey;
+  }
+  .about_welcome {
+    font-size: 4.2vw;
+    top: 24vh;
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+    text-align: center;
+    line-height: 6vh;
+  }
+  .about_item {
+    color: white;
+    font-size: 4.2vw;
+    position: absolute;
+    top: 46vh;
+    left: 35vw;
+    width: 40vw;
+    font-family: "Orbitron", sans-serif;
+  }
+  .about_what {
+    width: 60vw;
+    left: 22vw;
+    transform: translateY(-50%);
+    top: 45vh;
+    /* line-height: 10vw; */
+    position: relative;
+    font-family: "Orbitron", sans-serif;
+  }
+}

@@ -1,0 +1,79 @@
+.whitetitle {
+  color: white;
+}
+
+body {
+  background-image: url(images/Images_teams/background.png);
+}
+div.upper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 0 20px;
+}
+div.upper .menubutton {
+  font-size: 25px;
+}
+div.upper .menubutton a {
+  color: white;
+}
+
+div.upper .cglimage {
+  height: 82px;
+  width: 75px;
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+.cards div img {
+  height: 480px;
+  width: 320px;
+  border-radius: 32px;
+}
+.cards div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cards {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 25px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+.cards div :hover {
+  position: relative;
+  top: -2px;
+}
+
+@media all and (max-width: 700px) {
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+  }
+  .cards div img {
+    height: 400px;
+    width: 260px;
+    border-radius: 32px;
+  }
+  .heading {
+    text-align: center;
+    font-size: 40px;
+  }
+  .main {
+    position: relative;
+    top: -20px;
+  }
+}

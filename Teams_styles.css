@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Didact Gothic");
+@import url("https://fonts.googleapis.com/css?family=Saira");
+/* Yashi: Commented the part that doest work well with bootstarp */
+html,
+body {
+  height: 100%;
+}
+.menu {
+  font-family: Saira;
+  font-size: 30px;
+  color: white;
+}
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(64, 26, 100);
+  padding: 0;
+  z-index: 1;
+  transition: 0.3s;
+}
+.sidebar li {
+  font-size: 22px;
+  font-family: "Didact Gothic";
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-top: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.nav-link {
+  padding: 0;
+}
+.nav {
+  width: 100%;
+}
+.selected-tab a,
+.selected-tab i {
+  background-color: transparent;
+  color: #ec008c;
+}
+.nav ul {
+  display: inline-block;
+  list-style-type: none;
+  /* margin-top: 100px; */
+  height: 100%;
+  padding-left: 3%;
+}
+i {
+  margin: 8px;
+  width: 25px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar li :hover {
+  color: #ec008c;
+}
+.vertical-nav {
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  /* display: inline; */
+  float: right;
+  /* margin-top: 100px; */
+  width: 50%;
+  margin-left: 2000px !important;
+}
+
+body {
+  /* background-image: url(/Images/background.png);
+    background-attachment: fixed; */
+  background-color: #280738;
+  font-size: 22px;
+  margin: 0;
+}
+h1 {
+  padding-top: 2%;
+  color: white;
+  text-align: center;
+  font-family: Saira;
+  font-size: 40px;
+}
+h2 {
+  font-family: Saira;
+  font-size: 35px;
+  padding: 2%;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-family: Saira;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+h5
+{
+    font-family: Saira;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+p{
+    color: white;
+    font-family: Saira;
+}
+.Gallery{
+  margin-left: 20%;
+  margin-right: 0px;
+} 
+img {
+  display: inline;
+}
+.Gallery-images img {
+  max-width: 100%;
+  transition: transform 0.3s;
+  opacity: 1;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.container:hover img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.Gallery-images {
+  opacity: 1;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 36px;
+  }
+  .Gallery {
+    margin-left: 36px;
+  }
+  .sidebar:hover {
+    width: 250px;
+  }
+}
