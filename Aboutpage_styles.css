@@ -1,6 +1,12 @@
+body {
+  background-image: url(images/background1-edited.png);
+  background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
+}
 @media (min-width: 1150px) {
   .about_logoimg {
-    height: 16vh;
+    height: 26vh;
     position: absolute;
     left: 17.5%;
     transform: translateX(-50%);
@@ -23,7 +29,8 @@
     width: 35%;
     margin-top: -1vh;
     margin-left: -1vh;
-    background-color: #401a64;
+    /* background-color: #060606; */
+    background-color: rgba(0, 0, 0, 0.4);
     float: left;
     height: 100vh;
   }
@@ -37,18 +44,18 @@
     clear: both;
   }
   .about_square {
-    width: 35vw;
-    height: 35vw;
-    background: #401a64;
-    transform: rotate(20deg) translateY(-50%);
+    width: 43vw;
+    height: 41vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: rotate(15deg) translateY(-50%);
     border-radius: 5vw;
 
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 48%;
     z-index: 0;
 
-    left: 45%;
+    left: 42%;
   }
 
   .about_wrapper_left .about_howitbegan {
@@ -60,6 +67,8 @@
     letter-spacing: 3px;
     opacity: 0.6;
     font-family: "Orbitron", sans-serif;
+    /* font-family: "Didact Gothic"; TODOFONT*/
+
     text-shadow: 0 0 20px #4b09e7, 0 0 10px #431bf3, 0 0 500px #500cec;
   }
   .about_whatwedo {
@@ -82,7 +91,9 @@
     position: relative;
     opacity: 0.6;
     /* left: 11vw; */
-    text-shadow: 0 0 20px #4b09e7, 0 0 10px #431bf3, 0 0 500px #500cec;
+    text-shadow: 0 0 20px #ffffff, 0 0 10px #ffffff, 0 0 500px #ffffff;
+
+    /* shadow for out team */
   }
   body {
     font-family: monospace;
@@ -114,19 +125,21 @@
     top: 50%;
     position: absolute;
     font-family: "Orbitron", sans-serif;
-    font-size: 3.5vh;
-    word-spacing: 20px;
+    font-size: 2vh;
+    word-spacing: 1.05vh;
+    line-height: 3vh;
     letter-spacing: 2px;
 
     text-align: center;
     /* font-size: 100px; */
   }
   .about_what {
-    left: 48vw;
-    max-width: 40vw;
-    font-size: 3.5vh;
-    word-spacing: 20px;
+    left: 51vw;
+    max-width: 35vw;
+    font-size: 1.5vh;
+    word-spacing: 9px;
     font-family: "Orbitron", sans-serif;
+    line-height: 1.5vw;
   }
   li:hover {
     /* text-shadow: 
@@ -184,9 +197,16 @@
 }
 
 @media (max-width: 1150px) {
+  .about_row {
+    margin-top: -1vh;
+    margin-left: -1vw;
+    width: 102%;
+  }
   .about_logoimg {
     width: 12vw;
-    margin-left: 2vw;
+    margin-left: -13vw;
+    margin-right: 5vw;
+    display: inline;
   }
 
   .body {
@@ -195,7 +215,7 @@
   }
   .about_column {
     width: 102%;
-    background-color: #572271;
+    background-color: rgba(0, 0, 0, 0.4);
     float: left;
     margin-left: -1vw;
     margin-top: -1vh;
@@ -207,20 +227,30 @@
 
     /* height: 75vh; */
   }
-  .about_logotxt {
+  /* .about_logotxt {
     position: relative;
     bottom: 1.5vw;
     width: 24vw;
-  }
+  } */
   .about_row:after {
     content: "";
     display: table;
     clear: both;
   }
+
   .about_wrapper_left li {
     color: white;
     list-style: none;
     font-family: "Orbitron", sans-serif;
+  }
+  .about_wrapper_left ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about_wrapper_left {
+    display: flex;
+    justify-content: space-around;
   }
 
   .about_howitbegan {
@@ -255,18 +285,18 @@
     font-family: "Orbitron", sans-serif;
   }
   .about_square {
-    width: 50vw;
-    height: 50vw;
-    background: #401a64;
-    transform: rotate(20deg) translateY(-50%);
+    width: 80vw;
+    height: 75vh;
+    background-color: rgba(254, 254, 255, 0.164);
+    transform: rotate(0deg) translateY(-50%);
     border-radius: 5vw;
-
+    display: none;
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 56%;
     z-index: 0;
 
-    left: 18%;
+    left: 10%;
   }
   .about_wrapper_left li:hover {
     text-shadow: 0 0 10px #000000, 0 0 10px #ffffff, 0 0 500px #ffffff;
@@ -285,20 +315,32 @@
   }
   .about_item {
     color: white;
-    font-size: 4.2vw;
+    font-size: 4vw;
     position: absolute;
-    top: 46vh;
-    left: 35vw;
-    width: 40vw;
+    /* text-align: center; */
+    /* top: 46vh;
+    left: 35vw; */
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 54%;
+    width: 72vw;
+    line-height: 6vw;
+    word-spacing: 1.2vh;
     font-family: "Orbitron", sans-serif;
+    /* text-align: center; */
   }
   .about_what {
-    width: 60vw;
-    left: 22vw;
+    width: 76vw;
+    left: 10.5%;
     transform: translateY(-50%);
-    top: 45vh;
+    top: 50vh;
+    font-size: 3vw;
+    word-spacing: 0.2vh;
     /* line-height: 10vw; */
     position: relative;
     font-family: "Orbitron", sans-serif;
   }
+  /* .about_logo a{
+    display:none;
+  } */
 }

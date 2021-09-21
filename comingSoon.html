@@ -7,7 +7,7 @@
     <title>CGL/Assets</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
-  <body style="background-image: url('images/comingsoon.png')">
+  <body background="./images/background1-edited.png">
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -15,8 +15,37 @@
     ></script>
     <script src="js/bootstrap.js"></script>
     <div class="container-md">
-      <div class="row text-center" style="width: 100% !important">
-        <!-- <img src="images/comingsoon.png" alt="COMING SOON" /> -->
+      <div
+        class="row text-center"
+        style="
+          width: 100% !important;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <img
+          src="./images/cgs_logo.png"
+          alt="CGS logo"
+          style="width: 200px; height: 225px; margin: 10px"
+        />
+        <div style="color: #fff; font-size: 30px; margin: 10px">
+          Feature Coming soon
+        </div>
+        <a
+          href="index.html"
+          style="
+            text-decoration: none;
+            background-color: #3f0b59;
+            width: 200px;
+            padding: 5px;
+            color: #fff;
+            margin: 10px;
+          "
+          >Go to Home page</a
+        >
       </div>
     </div>
   </body>

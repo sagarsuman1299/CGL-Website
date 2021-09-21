@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
-  font-family: 'poppins', Arial;
+  font-family: "poppins", Arial;
 }
 
 html,
@@ -11,13 +11,34 @@ body {
   background-color: #261044;
   /* background-image:linear-gradient(to bottom right,#6C0D45,#390022);
     background:  linear-gradient(180deg, #6C0D45 0%, #390022 100%); */
+  padding: 10px;
 }
-
+div.upper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.upper .cglimage {
+  height: 82px;
+  width: 75px;
+}
+div.upper .title {
+  color: white;
+  font-size: 30px;
+}
+div.upper .menubutton {
+  font-size: 25px;
+}
+div.upper .menubutton a {
+  color: white;
+  text-decoration: none;
+}
 .card {
   display: grid;
   width: 300px;
   grid-template-rows: 210px 210px 80px;
-  grid-template-areas: 'image' 'text' 'stats';
+  grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
   background-image: linear-gradient(to bottom right, #4b92c5, rgb(39, 59, 170));
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
